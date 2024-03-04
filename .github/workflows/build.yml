@@ -12,6 +12,8 @@ jobs:
         uses: rlalik/setup-cpp-compiler@master
         with:
           compiler: latest
+      - name: Run make
+        run: make
       - uses: actions/upload-artifact@v4
         name: Upload Artifact
         with:
