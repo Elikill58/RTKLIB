@@ -17,5 +17,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         name: Upload Artifact
         with:
-          name: RTKLib
-          path: "./build"
+          name: RTKLib-all
+          path: "../../"
